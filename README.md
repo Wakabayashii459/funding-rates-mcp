@@ -104,6 +104,13 @@ The server includes the following MCP prompt for generating natural language que
   | SOL/USDT:USDT   | -0.015312% | -0.003639% | -0.004467% | 0.011673%  |
   ```
 
+#### Quick Script
+To print current funding rates for BTC and ETH across all supported exchanges, run:
+
+```bash
+python examples/show_funding_rates.py
+```
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

@@ -178,4 +178,7 @@ def compare_funding_rates_prompt(symbols: List[str]) -> str:
 # Main execution
 def main() -> None:
     mcp.run()
+
+if __name__ == "__main__":
+    main()
     
